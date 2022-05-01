@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .u-title {
+    @apply text-[56px] font-medium text-[#fff]
+  }
+  .u-title-section {
+    @apply text-[36px] font-medium text-[#fff]
+  }
+  .u-divider-vertical {
+    @apply w-[2px] h-[52px] bg-[#fff] bg-opacity-[0.12]
+  }
+  .u-status-number  {
+    @apply md:text-[32px] text-[24px] font-medium
+  }
+  .u-status-number span  {
+    @apply md:text-[48px] text-[30px]
+  }
+  .u-status-number span:nth-child(2)  {
+    @apply text-[56px]
+  }
+  .u-status-number p {
+    @apply text-[12px] font-[300]
+  }
+  .u-button-default {
+    @apply text-[#fff] outline outline-[2px] outline-[#0F77C2] rounded-[50%] px-[58px] py-[20px] flex items-center justify-center rotate-[-1deg] poppins tracking-wider; 
+  }
+  .u-button-default p {
+    @apply rotate-[1deg]
+  }
+  .u-card-small {
+    @apply border-[2px] border-[#fff] border-opacity-[0.06] flex items-center justify-center w-full h-[230px] overflow-hidden p-[5px];
+  }
+  .u-card-medium {
+    @apply border-[2px] border-[#fff] border-opacity-[0.12] flex items-center justify-center w-full overflow-hidden py-[42px] xl:py-[70px] px-[38px] xl:px-[35px];
+  }
+  .u-digitals {
+    @apply flex flex-col text-center
+  }
+  .u-digitals .u-card-number {
+    @apply text-[24px] xl:text-[42px] font-medium mb-[20px]
+  }
+  .u-digitals .u-card-number span {
+    @apply text-[72px] xl:text-[100px] font-medium
+  }
+  .u-digitals span {
+    @apply text-[22px] xl:text-[26px] font-medium
+  }
+  .u-digitals p {
+    @apply font-[300] text-[#fff] text-opacity-[0.6] mt-[8px]
+  }
+  .u-card-large {
+    @apply border-[2px] border-[#fff] border-opacity-[0.12] py-[52px] md:py-[72px] px-[25px] md:px-[110px]
+  }
+  .poppins {
+    font-family: 'Poppins';
+  }
+}

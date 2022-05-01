@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+  .u-main-image {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .uk-container {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+  body  {
+    animation: none;
+  }
+  .uk-navbar-list {
+    display: none;
+  }
+  .u-mobile-menu {
+    display: block;
+  }
+  .main-title {
+    display: none;
+  }
+  .u-navbar-list {
+    gap: 20px;
+  }
+}

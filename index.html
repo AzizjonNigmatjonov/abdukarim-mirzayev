@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/img/logo.svg" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/css/uikit.min.css" />
+    <link rel="stylesheet" href="../assets/css/tailwind.css" />
+    <link rel="stylesheet" href="../assets/sass/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="bg-[#000915] border-b-[2px] border-[#fff] border-opacity-[0.12]"
+        uk-sticky="show-on-up: true; animation: uk-animation-slide-top; sel-target: .u-navbar; cls-active: uk-navbar-sticky; top: 200">
+        <nav class="uk-container uk-container-large uk-padding overflow-hidden u-navbar" uk-navbar>
+            <div class="uk-navbar-left">
+                <img src="../assets/img/logo.svg" alt="Brand" />
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-list uk-grid">
+                    <li class="u-navbar-item">
+                        <a href="#partners">Hamkorlarimiz</a>
+                    </li>
+                    <li class="u-navbar-item">
+                        <a href="#status">Raqamalar</a>
+                    </li>
+                    <li class="u-navbar-item">
+                        <a href="#adds">Reklama turlari</a>
+                    </li>
+                    <li class="u-navbar-item">
+                        <a href="#about">Abdukarim Mirzayev</a>
+                    </li>
+                    <li class="u-navbar-item">
+                        <a href="#jobAreas">Sohalar</a>
+                    </li>
+                </ul>
+                <div class="u-mobile-menu" uk-toggle="target: #uMobileSlider">
+                    <hr />
+                    <hr />
+                    <hr />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="uk-section lg:min-h-[100vh] flex items-center">
+        <div class="uk-container uk-container-large w-full">
+            <div class="inline-block relative z-[2]">
+                <h1 class="main-title u-title mb-[37px]"></h1>
+                <div class="md:hidden mb-[20px]">
+                    <h1 class="u-title">Abdukarim</h1>
+                    <h1 class="u-title text-right">Mirzayev</h1>
+                </div>
+                <img class="md:hidden mt-[8px] mb-[32px]" src="../assets/img/main/abdukarimaka-2.png" alt="owner">
+                <div class="flex justify-center md:justify-start space-x-[18px] md:space-x-[30px]">
+                    <div>
+                        <div class="u-status-number">
+                            <span>1.6</span>m+
+                            <p>Instagram</p>
+                        </div>
+                    </div>
+                    <div class="u-divider-vertical"></div>
+                    <div>
+                        <div class="u-status-number">
+                            <span>2</span>mln+
+                            <p>YouTube</p>
+                        </div>
+                    </div>
+                    <div class="u-divider-vertical"></div>
+                    <div>
+                        <div class="u-status-number">
+                            <span>140</span>k+
+                            <p>Telegram</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="inline-flex justify-center w-full md:justify-start mt-[42px]">
+                    <a href="#modalForm" uk-toggle class="u-button-default">
+                        <p>Hamkorlik uchun</p>
+                        <span class="u-button-default__inner">
+                            <span class="u-button-default__blobs">
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img class="u-main-image" src="../assets/img/main/abdukarimaka.png" alt="owner" />
+    </main>
+
+    <section id="partners" class="uk-section">
+        <div class="swiper sliderPartner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-2.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-3.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-4.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-5.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-6.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper sliderPartner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-7.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-8.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-9.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-10.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-11.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="u-card-small">
+                        <img src="../assets/img/svg/partner-12.svg" alt="partner" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="status" class="uk-section">
+        <div class="uk-container uk-container-large">
+            <h2 class="u-title-section gs_reveal">Biz raqamlarda</h2>
+            <ul class="mt-[42px] uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-medium uk-grid-match" uk-grid>
+                <li class="skewElem">
+                    <div class="u-card-medium u-digitals">
+                        <div class="u-card-number"><span>4</span>mln+</div>
+                        <span>Obunachilar soni</span>
+                        <p>
+                            Bizning Ijtimoiy tarmoq sahifalarimizdagi jami obunachilar soni
+                            4 mlndan oshadi
+                        </p>
+                    </div>
+                </li>
+                <li class="skewElem">
+                    <div class="u-card-medium u-digitals">
+                        <div class="u-card-number"><span>200</span>ming</div>
+                        <span>Obunachilar oʻsishi</span>
+                        <p>
+                            Ijtimoiy tarmoq sahifalarimiz har oy yangi 250 mingdan oshiq obunachiga ko'payadi
+                        </p>
+                    </div>
+                </li>
+                <li class="skewElem">
+                    <div class="u-card-medium u-digitals">
+                        <div class="u-card-number"><span>2,5</span>mln</div>
+                        <span>Kunlik koʻrishlar soni</span>
+                        <p>
+                            Statistika bo'yicha sahifalarimizdagi kunlik ko'rilishlar soni 2.5 mln oshiq
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="uk-section">
+        <div class="uk-container uk-container-large">
+            <div class="u-card-large">
+                <h2 class="u-title-section uk-width-3-5@m gs_reveal">
+                    Manfaatli hamkorlik qilish uchun murojaat qiling
+                </h2>
+                <div class="inline-flex justify-center w-full md:w-auto mt-[42px]">
+                    <a href="#" class="u-button-default">
+                        <p>Aloqaga chiqish</p>
+                        <span class="u-button-default__inner">
+                            <span class="u-button-default__blobs">
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adds" class="uk-section u-socials-section">
+        <div class="uk-container uk-container-large">
+            <h2 class="u-title-section gs_reveal">Reklama turlari</h2>
+            <div class="uk-width-1-1 uk-margin-large-top">
+                <ul class="uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true">
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-parent">
+                        <a href="#">
+                            <img loading="lazy" src="../assets/img/svg/instagram.svg" alt="icon">
+                            <span class="ml-[12px]">Instagram</span>
+                        </a>
+                        <ul class="uk-nav-sub">
+                            <li>
+                                <img src="../assets/img/svg/arrow.svg" alt="">
+                                <div>
+                                    <span class="font-[300] text-white text-opacity-[0.82]">Storis</span> -
+                                    <span>150$</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../assets/img/svg/arrow.svg" alt="">
+                                <div>
+                                    <span class="font-[300] text-white text-opacity-[0.82]">Post</span> -
+                                    <span>300$</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../assets/img/svg/arrow.svg" alt="">
+                                <div>
+                                    <span class="font-[300] text-white text-opacity-[0.82]">
+                                        Instagramga joylandagan videolarga brend logosini
+                                        qo'yish va sahifasini otmetka qilish bitta video uchun</span> -
+                                    <span>170$</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-parent">
+                        <a href="#">
+                            <img loading="lazy" src="../assets/img/svg/telegram.svg" alt="icon">
+                            <span class="ml-[12px]">Telegram</span>
+                        </a>
+                        <ul class="uk-nav-sub">
+                            <li>
+                                <img src="../assets/img/svg/star-small.svg" alt="">
+                                <div>
+                                    <span>1/24 Top lenta</span> - <span
+                                        class="font-[300] text-white text-opacity-[0.82]">1 soat eng oxirgi xabar boʻlib
+                                        turadi va 1 soatdan keyin
+                                        boshqa post qoʻyiladi va 24 soat davomida kanal lentasida turadi</span>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="../assets/img/svg/star-small.svg" alt="">
+                                <div>
+                                    <span>Topsiz lenta</span> - <span class="font-[300] text-white text-opacity-[0.82]">
+                                        bu tarifda sizning reklamangiz eng oxirgi xabar boʻlib
+                                        turmaydi faqat kanal lentasida koʻrinib turadi</span>
+                                </div>
+                            </li>
+                            <div>
+                                <div class="flex items-center w-full mt-[40px] mb-[20px]">
+                                    <div class="md:w-[400px]">
+                                        <span class="font-[300] text-white text-opacity-[0.82] mr-[10px]">Kanal:</span>
+                                        <span>Abdukarim_Mirzayev_Tv</span>
+                                    </div>
+                                    <div class="ml-[70px] hidden md:block">
+                                        <span class="font-[300] text-white text-opacity-[0.82] mr-[10px]">Kanal:</span>
+                                        <span>Abdukarim_Mirzayev_kanali</span>
+                                    </div>
+                                </div>
+                                </d>
+                                <div class="flex flex-col md:flex-row">
+                                    <div class="md:w-[400px]">
+                                        <div class="flex space-x-[22px] items-start mb-[22px]">
+                                            <img class="mt-[5px]" src="../assets/img/svg/arrow.svg" alt="">
+                                            <div>
+                                                <span>Topsiz 24 soat lenta</span> - <span
+                                                    class="font-[300] text-white text-opacity-[0.82]">500 ming
+                                                    so'm</span>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-[22px] items-start mb-[22px]">
+                                            <img class="mt-[5px]" src="../assets/img/svg/arrow.svg" alt="">
+                                            <div>
+                                                <span>1 soat top 24 soat lenta</span> - <span
+                                                    class="font-[300] text-white text-opacity-[0.82]">700 ming
+                                                    so'm</span>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-[22px] items-start mb-[22px]">
+                                            <img class="mt-[5px]" src="../assets/img/svg/arrow.svg" alt="">
+                                            <div>
+                                                <span>2 soat top 3 kun lenta
+                                                    pinned holatida</span> - <span
+                                                    class="font-[300] text-white text-opacity-[0.82]">1 mln so'm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-[30px] mb-[30px] md:hidden">
+                                        <span class="font-[300] text-white text-opacity-[0.82] mr-[10px]">Kanal:</span>
+                                        <span>Abdukarim_Mirzayev_kanali</span>
+                                    </div>
+                                    <div class="md:ml-[70px]">
+                                        <div class="flex space-x-[22px] items-start mb-[22px]">
+                                            <img class="mt-[5px]" src="../assets/img/svg/arrow.svg" alt="">
+                                            <div>
+                                                <span>Topsiz 24 soat lenta</span> - <span
+                                                    class="font-[300] text-white text-opacity-[0.82]">1 mln so'm</span>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-[22px] items-start mb-[22px]">
+                                            <img class="mt-[5px]" src="../assets/img/svg/arrow.svg" alt="">
+                                            <div>
+                                                <span>30 daqiqa top 24 soat lenta</span> - <span
+                                                    class="font-[300] text-white text-opacity-[0.82]">1.3 mln
+                                                    so'm</span>
+                                            </div>
+                                        </div>
+                                        <div class="flex space-x-[22px] items-start mb-[22px]">
+                                            <img class="mt-[5px]" src="../assets/img/svg/arrow.svg" alt="">
+                                            <div>
+                                                <span>2 soat top 3 kun lenta
+                                                    pin xolatida</span> - <span
+                                                    class="font-[300] text-white text-opacity-[0.82]">1.8 mln
+                                                    so'm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </d>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-parent">
+                        <a href="#">
+                            <img loading="lazy" src="../assets/img/svg/facebook.svg" alt="icon">
+                            <span class="ml-[12px]">Facebook</span>
+                        </a>
+                        <ul class="uk-nav-sub">
+                            <li>
+                                <img src="../assets/img/svg/arrow.svg" alt="">
+                                <div>
+                                    <span class="font-[300] text-white text-opacity-[0.82]">Lentada post</span> -
+                                    <span>1 mln (1-hafta turadi)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-parent">
+                        <a href="#">
+                            <img loading="lazy" src="../assets/img/svg/youtube.svg" alt="icon">
+                            <span class="ml-[12px]">YouTube</span>
+                        </a>
+                        <ul class="uk-nav-sub">
+                            <li>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="uk-section">
+        <div class="uk-container uk-container-large group">
+            <h2 class="u-title-section gs_reveal">Abdukarim Mirzayev haqida</h2>
+            <div class="uk-margin-large-top items-center uk-child-width-1-2@m uk-grid-large" uk-grid>
+                <div>
+                    <div class="flex items-center">
+                        <div class="w-[2px] h-[350px] md:h-[430px] rounded-[12px] bg-[#fff] bg-opacity-[0.12]"></div>
+                        <div class="px-[20px] lg:px-[100px] py-[70px]">
+                            <span class="text-white font-[300] gs_reveal">Jurnalist</span>
+                            <h2
+                                class="gs_reveal marker:selection:text-[56px] lg:text-[72px] text-white font-medium mt-[17px] mb-[27px]">
+                                Mirzayev
+                                Abdukarim
+                            </h2>
+                            <p class="text-white font-[300] gs_reveal">
+                                U ijodiy faoliyatini 2003 yilda boshlagan. Radio va teleradiokanallardagi uzoq yillik
+                                faoliyati davomida yig‘gan tajribalarini o‘z tinglovchilari bilan bo‘lishishni maqsad
+                                qilgan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center">
+                        <div class="gs_reveal gs_reveal_fromRight">
+                            <img loading="lazy" src="../assets/img/main/owner.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jobAreas" class="uk-section">
+        <div class="uk-container uk-container-large">
+            <h2 class="u-title-section gs_reveal">
+                Qanday sohalar bilan hamkorlik qilmaymiz.
+            </h2>
+            <div class="uk-margin-large-top">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="u-swiper-slider">
+                                <span class="text-xl font-medium">01</span>
+                                <h3 class="text-[26px] font-medium">Stavka qo‘yiladigan</h3>
+                                <p class="font-[300]">
+                                    Dinimizda sudxo'rlik qattiq qoralanganj tufayli, ustiga foiz,
+                                    stavka qo'yiladigan sohalar bilan hamkorlik qilmaymiz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="u-swiper-slider">
+                                <span class="text-xl font-medium">02</span>
+                                <h3 class="text-[26px] font-medium">Qimor</h3>
+                                <p class="font-[300]">
+                                    Islom dini qimorni qattiq oqralagani va uni gunohi kabira deb hisoblagani uchun biz
+                                    bunday faoliyat turlari bilan hamkorlik qilmaymiz
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="u-swiper-slider">
+                                <span class="text-xl font-medium">03</span>
+                                <h3 class="text-[26px] font-medium">Tarmoqli marketing</h3>
+                                <p class="font-[300]">
+                                    Tarmoqli marketing yoki poramida usulida foyda qiluvchilar, shu jumladan, faberlic,
+                                    oriflame, NL, Gano sohasida ishlaydiganlar bilan hamkorlik qilmaymiz.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="u-swiper-slider">
+                                <span class="text-xl font-medium">04</span>
+                                <h3 class="text-[26px] font-medium">Turli dori vositalari</h3>
+                                <p class="font-[300]">
+                                    Tarkibiga harom/shubhali qo'shimchalar qo'shilishi mumkin bo'lgan, insonlarning
+                                    sog'ligiga aks ta'sir etuvchi turli dori vositalar savdosi bilan shug'ullanuvchilar
+                                    bilan hamkorlik qilmaymiz
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-end items-center mt-[32px] uk-hidden@m">
+                        <div class="u-button-prev mr-[20px]">
+                            <img src="../assets/img/svg/arrow-left.svg" alt="arrow">
+                        </div>
+                        <div class="u-button-next">
+                            <img class="rotate-180" src="../assets/img/svg/arrow-left.svg" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="uk-section">
+        <div class="uk-container uk-container-large">
+            <div class="u-card-large">
+                <h2 class="u-title-section uk-width-3-5@m gs_reveal">
+                    Reklama xizmatlaridan foydalanish
+                    uchun murojaat qiling
+                </h2>
+                <div class="inline-flex justify-center w-full md:w-auto mt-[42px]">
+                    <a href="#" class="u-button-default">
+                        <p>Aloqaga chiqish</p>
+                        <span class="u-button-default__inner">
+                            <span class="u-button-default__blobs">
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                                <span class="u-button-default__blob"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        class="uk-section border-y-[2px] border-[#fff] border-opacity-[0.12] uk-padding-remove-vertical uk-margin-large-top">
+        <div class="uk-container uk-container-large">
+            <nav class="uk-container uk-container-large uk-padding overflow-hidden u-navbar flex items-center flex-col md:flex-row md:justify-between"
+                uk-navbar>
+                <div class="flex items-center flex-col md:flex-row">
+                    <img class="mb-[30px] md:mb-0" src="../assets/img/logo-footer.svg" alt="Brand" />
+                    <div class="flex w-full justify-between">
+                        <ul
+                            class="u-navbar-list flex-col md:flex-row flex md:space-x-[22px] md:ml-[20px] xl:ml-[102px]">
+                            <li class="u-navbar-item">
+                                <a href="#partners">Hamkorlarimiz</a>
+                            </li>
+                            <li class="u-navbar-item">
+                                <a href="#status">Raqamalar</a>
+                            </li>
+                            <li class="u-navbar-item">
+                                <a href="#adds">Reklama turlari</a>
+                            </li>
+                            <li class="u-navbar-item hidden md:block">
+                                <a href="#about">Abdukarim Mirzayev</a>
+                            </li>
+                            <li class="u-navbar-item hidden md:block">
+                                <a href="#jobAreas">Sohalar</a>
+                            </li>
+                        </ul>
+                        <ul class="u-navbar-list flex flex-col ml-[20px]">
+                            <li class="u-navbar-item md:hidden">
+                                <a href="#about">Abdukarim Mirzayev</a>
+                            </li>
+                            <li class="u-navbar-item md:hidden">
+                                <a href="#jobAreas">Sohalar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-[40px] md:mt-0">
+                    <div class="flex items-center space-x-[32px]">
+                        <a href="#">
+                            <img class="hover:scale-125 duration-150" src="../assets/img/svg/insta.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img class="hover:scale-125 duration-150" src="../assets/img/svg/telegram-line.svg"
+                                alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img class="hover:scale-125 duration-150" src="../assets/img/svg/youtube-line.svg"
+                                alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img class="hover:scale-125 duration-150" src="../assets/img/svg/face.svg" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- navbar mobile -->
+    <div id="uMobileSlider" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar">
+            <div class="uk-flex uk-flex-right">
+                <button class="uk-offcanvas-close" type="button" uk-close>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path
+                            d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" />
+                    </svg>
+                </button>
+            </div>
+
+            <ul class="mt-[20px] items-end uk-flex-column uk-grid-small uk-text-uppercase uk-child-width-1-1" uk-grid>
+                <li class="uk-flex uk-flex-right">
+                    <a href="#partners" class="font-400">
+                        Hamkorlarimiz
+                    </a>
+                </li>
+                <div>
+                    <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.12]">
+                </div>
+                <li class="uk-flex uk-flex-right">
+                    <a href="#status" class="font-400">
+                        Raqamalar
+                    </a>
+                </li>
+                <div>
+                    <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.12]">
+                </div>
+                <li class="uk-flex uk-flex-right">
+                    <a href="#adds" class="font-400">
+                        Reklama turlari
+                    </a>
+                </li>
+                <div>
+                    <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.12]">
+                </div>
+                <li class="uk-flex uk-flex-right">
+                    <a href="#about" class="font-400">
+                        Abdukarim Mirzayev
+                    </a>
+                </li>
+                <div>
+                    <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.12]">
+                </div>
+                <li class="uk-flex uk-flex-right">
+                    <a href="#jobAreas" class="font-400">
+                        Sohalar
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar mobile -->
+
+    <div id="modalForm" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical bg-[#fff] uk-padding-large">
+
+            <button class="uk-modal-close-default" type="button" uk-close>
+                <svg width="83" height="188" viewBox="0 0 83 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M83 94C83 145.915 83 188 83 188C60.3223 106.654 1.59169 150.885 0.0326975 94C-1.62694 33.4423 60.3223 76.8269 83 0C83 0 83 42.0852 83 94Z"
+                        fill="#030C18" />
+                    <path d="M41.0029 100.845L27.8379 87.6799" stroke="white" stroke-width="2" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M40.8447 87.835L27.6797 101" stroke="white" stroke-width="2" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+            </button>
+
+            <form>
+                <h2 class="text-[#030C18] text-[24px] sm:text-[36px] mb-[40px]">
+                    Biz bilan hamkorlik qilmoqchimisiz shularni to‘ldirib bering
+                </h2>
+                <form class="flex flex-col text-[#030C18]">
+                    <div class="flex flex-col space-y-[40px] uk-width-3-4@m">
+                        <input type="text" placeholder="Ismingiz"
+                            class="w-full text-[#030C18] placeholder-[#030C18] placeholder-opacity-[0.42] outline-none py-[5px] px-[22px] border-b-[2px] border-[#999]">
+                        <input type="text" placeholder="Telefon raqamingiz"
+                            class="w-full text-[#030C18] placeholder-[#030C18] placeholder-opacity-[0.42] outline-none py-[5px] px-[22px] border-b-[2px] border-[#999]">
+                        <input type="text" placeholder="Biznesingiz turi"
+                            class="w-full text-[#030C18] placeholder-[#030C18] placeholder-opacity-[0.42] outline-none py-[5px] px-[22px] border-b-[2px] border-[#999]">
+                    </div>
+                    <div class="mt-[50px]">
+                        <button
+                            class="w-[270px] inline-block rounded-[50%] px-[58px] py-[20px] bg-[#0F77C2] hover:bg-[#0F77C2af] duration-200 text-[#fff]">
+                            <p style="white-space: nowrap;">Malumotlarni yuborish</p>
+                        </button>
+                    </div>
+                </form>
+        </div>
+        </form>
+
+    </div>
+    </div>
+
+    <!-- uikit -->
+    <script src="../assets/js/uikit-icons.min.js"></script>
+    <script src="../assets/js/uikit.min.js"></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <!-- function -->
+    <script src="../assets/js/function/function.js"></script>
+    <script src="../assets/js/function/swiper.js"></script>
+    <script src="../assets/js/function/gsap.js"></script>
+</body>
+
+</html>
